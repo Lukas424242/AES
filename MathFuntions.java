@@ -1,7 +1,7 @@
 public class MathFunctions {
 // 128 (-0x80) to 127 (0x7f)
 
-    public static String [][][] arraycastit2Array2D2(String eingabe){
+    public static String [][][]  arraycastit2Array2D2(String eingabe){
         // Dafür sorgen dass text.length() %16 == 0 ist
         while (true) {
             if (MathFunctions.istteilbar(eingabe.length(), 16)) {
